@@ -1,0 +1,38 @@
+site_name: Поведенческая адаптация интерфейсов
+site_description: Методы адаптации веб-интерфейсов к поведению пользователей
+site_author: Сергей Волков
+site_url: !ENV [SITE_URL, "http://127.0.0.1:8000/"]
+edit_uri: ""
+strict: true
+
+copyright: © 2026 Сергей Волков · Контент CC BY 4.0 · Код MIT
+
+theme:
+  name: material
+  language: ru
+  font: false
+  custom_dir: overrides
+
+plugins:
+  - search:
+      lang: [ru, en]
+
+markdown_extensions:
+  - attr_list
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+extra:
+  commit: !ENV [GITHUB_SHA, "local"]
+
+nav:
+  - Главная: index.md
+  - Сигналы поведения: signals.md
+  - Методы адаптации: methods.md
+  - Оценка и ограничения: evaluation.md
+  - Источники: sources.md
+  - О сайте: about.md

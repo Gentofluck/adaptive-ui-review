@@ -1,0 +1,682 @@
+{
+  "recorded_at": "2026-11-08T23:46:31.583439+03:00",
+  "build": {
+    "source_commit": "e423dd5fa1e146e73adbcd62e91a8479e6eb2d7b",
+    "local_build_seconds": 0.402,
+    "site_bytes": 2653085,
+    "index_html_bytes": 16272,
+    "search_index_bytes": 38910
+  },
+  "weight_comparison": {
+    "before": {
+      "total_bytes": 2668828,
+      "index_bytes": 18521
+    },
+    "after": {
+      "total_bytes": 2653085,
+      "index_bytes": 16272
+    },
+    "difference_bytes": -15743
+  },
+  "browser_check": {
+    "page": "https://se.ifmo.ru/~s336456/adaptive-interfaces-review/evaluation/",
+    "external_requests_blocked": true,
+    "external_requests_observed": 0,
+    "search_query": "адаптация",
+    "search_matches": 3,
+    "mathml_rendered": true
+  },
+  "preview_url": "https://se.ifmo.ru/~s336456/adaptive-interfaces-review-previews/preview-check-5293aadd/",
+  "production_had_preview_marker": false,
+  "preview_had_preview_marker": true,
+  "runs": [
+    {
+      "id": 42521012436,
+      "url": "https://github.com/Gentofluck/adaptive-interfaces-review/actions/runs/42521012436",
+      "event": "push",
+      "branch": "main",
+      "commit": "93661e3abf5d2c55a67971801047ca7b46e57ba2",
+      "conclusion": "success",
+      "job_seconds": 30.0,
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 2.0
+        },
+        {
+          "name": "Установка зависимостей",
+          "conclusion": "success",
+          "seconds": 6.0
+        },
+        {
+          "name": "Проверка сборки",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Сохранение сборки GitHub Pages",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Публикация GitHub Pages",
+          "conclusion": "success",
+          "seconds": 5.0
+        },
+        {
+          "name": "Проверка GitHub Pages",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Настройка SSH",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация или откат Helios",
+          "conclusion": "success",
+          "seconds": 10.0
+        },
+        {
+          "name": "Удаление ключа",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success",
+          "seconds": 0.0
+        }
+      ]
+    },
+    {
+      "id": 42521134333,
+      "url": "https://github.com/Gentofluck/adaptive-interfaces-review/actions/runs/42521134333",
+      "event": "push",
+      "branch": "main",
+      "commit": "e423dd5fa1e146e73adbcd62e91a8479e6eb2d7b",
+      "conclusion": "success",
+      "job_seconds": 36.0,
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success",
+          "seconds": 3.0
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 2.0
+        },
+        {
+          "name": "Установка зависимостей",
+          "conclusion": "success",
+          "seconds": 5.0
+        },
+        {
+          "name": "Проверка сборки",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Сохранение сборки GitHub Pages",
+          "conclusion": "success",
+          "seconds": 2.0
+        },
+        {
+          "name": "Публикация GitHub Pages",
+          "conclusion": "success",
+          "seconds": 8.0
+        },
+        {
+          "name": "Проверка GitHub Pages",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Настройка SSH",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация или откат Helios",
+          "conclusion": "success",
+          "seconds": 12.0
+        },
+        {
+          "name": "Удаление ключа",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success",
+          "seconds": 0.0
+        }
+      ]
+    },
+    {
+      "id": 42521068010,
+      "url": "https://github.com/Gentofluck/adaptive-interfaces-review/actions/runs/42521068010",
+      "event": "push",
+      "branch": "preview-check",
+      "commit": "a013b8da8f0654d0ba228ddcc1c0e7c3742e4fdf",
+      "conclusion": "failure",
+      "job_seconds": 16.0,
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 4.0
+        },
+        {
+          "name": "Установка зависимостей",
+          "conclusion": "success",
+          "seconds": 7.0
+        },
+        {
+          "name": "Проверка сборки",
+          "conclusion": "failure",
+          "seconds": 0.0
+        },
+        {
+          "name": "Сохранение сборки GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Проверка GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Настройка SSH",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация или откат Helios",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Удаление ключа",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success",
+          "seconds": 0.0
+        }
+      ]
+    },
+    {
+      "id": 42521155081,
+      "url": "https://github.com/Gentofluck/adaptive-interfaces-review/actions/runs/42521155081",
+      "event": "push",
+      "branch": "preview-check",
+      "commit": "3a4692d231a4c9ad25c2a7065c1b820218695948",
+      "conclusion": "success",
+      "job_seconds": 29.0,
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success",
+          "seconds": 2.0
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 4.0
+        },
+        {
+          "name": "Установка зависимостей",
+          "conclusion": "success",
+          "seconds": 6.0
+        },
+        {
+          "name": "Проверка сборки",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Сохранение сборки GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Проверка GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Настройка SSH",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация или откат Helios",
+          "conclusion": "success",
+          "seconds": 11.0
+        },
+        {
+          "name": "Удаление ключа",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success",
+          "seconds": 0.0
+        }
+      ]
+    },
+    {
+      "id": 42521238817,
+      "url": "https://github.com/Gentofluck/adaptive-interfaces-review/actions/runs/42521238817",
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "commit": "e423dd5fa1e146e73adbcd62e91a8479e6eb2d7b",
+      "conclusion": "success",
+      "job_seconds": 24.0,
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success",
+          "seconds": 2.0
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 3.0
+        },
+        {
+          "name": "Установка зависимостей",
+          "conclusion": "success",
+          "seconds": 7.0
+        },
+        {
+          "name": "Проверка сборки",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Сохранение сборки GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Проверка GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Настройка SSH",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация или откат Helios",
+          "conclusion": "success",
+          "seconds": 7.0
+        },
+        {
+          "name": "Удаление ключа",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success",
+          "seconds": 0.0
+        }
+      ]
+    },
+    {
+      "id": 42521326064,
+      "url": "https://github.com/Gentofluck/adaptive-interfaces-review/actions/runs/42521326064",
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "commit": "e423dd5fa1e146e73adbcd62e91a8479e6eb2d7b",
+      "conclusion": "success",
+      "job_seconds": 34.0,
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success",
+          "seconds": 2.0
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Установка зависимостей",
+          "conclusion": "success",
+          "seconds": 5.0
+        },
+        {
+          "name": "Проверка сборки",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Сохранение сборки GitHub Pages",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Публикация GitHub Pages",
+          "conclusion": "success",
+          "seconds": 8.0
+        },
+        {
+          "name": "Проверка GitHub Pages",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Настройка SSH",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация или откат Helios",
+          "conclusion": "success",
+          "seconds": 11.0
+        },
+        {
+          "name": "Удаление ключа",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success",
+          "seconds": 0.0
+        }
+      ]
+    },
+    {
+      "id": 42521492794,
+      "url": "https://github.com/Gentofluck/adaptive-interfaces-review/actions/runs/42521492794",
+      "event": "push",
+      "branch": "preview-check",
+      "commit": "652fd91824d39ae3f41458e5f73ef95b764bcd24",
+      "conclusion": "failure",
+      "job_seconds": 37.0,
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 2.0
+        },
+        {
+          "name": "Установка зависимостей",
+          "conclusion": "success",
+          "seconds": 6.0
+        },
+        {
+          "name": "Проверка сборки",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Сохранение сборки GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Проверка GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Настройка SSH",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация или откат Helios",
+          "conclusion": "failure",
+          "seconds": 23.0
+        },
+        {
+          "name": "Удаление ключа",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success",
+          "seconds": 0.0
+        }
+      ]
+    },
+    {
+      "id": 42521615425,
+      "url": "https://github.com/Gentofluck/adaptive-interfaces-review/actions/runs/42521615425",
+      "event": "push",
+      "branch": "preview-check",
+      "commit": "bec09c7f7505070f84a426bada00a035187e45ec",
+      "conclusion": "success",
+      "job_seconds": 32.0,
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success",
+          "seconds": 2.0
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 1.0
+        },
+        {
+          "name": "Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 3.0
+        },
+        {
+          "name": "Установка зависимостей",
+          "conclusion": "success",
+          "seconds": 8.0
+        },
+        {
+          "name": "Проверка сборки",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Сохранение сборки GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Проверка GitHub Pages",
+          "conclusion": "skipped",
+          "seconds": 0.0
+        },
+        {
+          "name": "Настройка SSH",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Публикация или откат Helios",
+          "conclusion": "success",
+          "seconds": 13.0
+        },
+        {
+          "name": "Удаление ключа",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "conclusion": "success",
+          "seconds": 0.0
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success",
+          "seconds": 0.0
+        }
+      ]
+    }
+  ]
+}
