@@ -20,7 +20,7 @@
 
 ## Проверки
 
-[Текущие запуски публикации](https://github.com/Gentofluck/adaptive-ui-review/actions/workflows/deploy.yml). Проверки ниже выполнены до переноса проекта; ссылки ведут на сохранённые журналы в прежнем репозитории.
+[Запуски публикации](https://github.com/Gentofluck/adaptive-ui-review/actions/workflows/deploy.yml).
 
 [Успешный запуск](https://github.com/Gentofluck/adaptive-interfaces-review/actions/runs/42521134333) завершил публикацию на обе площадки. Проверка после загрузки подтвердила наличие ожидаемой версии по метке `BUILD-STAMP`.
 
