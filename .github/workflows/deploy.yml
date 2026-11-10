@@ -22,6 +22,8 @@ concurrency:
 
 env:
   NO_MKDOCS_2_WARNING: "1"
+  ATTEMPTS: "3"
+  DELAY: "1"
   HELIOS_HOST: helios.cs.ifmo.ru
   HELIOS_USER: s336456
   HELIOS_PORT: "2222"
