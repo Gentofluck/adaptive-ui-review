@@ -22,11 +22,11 @@
 
 [Запуски публикации](https://github.com/Gentofluck/adaptive-ui-review/actions/workflows/deploy.yml).
 
-[Успешный запуск](https://github.com/Gentofluck/adaptive-interfaces-review/actions/runs/42521134333) завершил публикацию на обе площадки. Проверка после загрузки подтвердила наличие ожидаемой версии по метке `BUILD-STAMP`.
+[Успешный запуск](https://github.com/Gentofluck/adaptive-ui-review/actions/runs/42879463837) завершил публикацию на обе площадки. Проверка после загрузки подтвердила наличие ожидаемой версии по метке `BUILD-STAMP`.
 
 ![Успешная публикация в Actions](report/images/ci-success.png)
 
-Для проверки защиты от ошибок отдельно добавил неверную ссылку. [Этот запуск](https://github.com/Gentofluck/adaptive-interfaces-review/actions/runs/42521068010) завершился до публикации. После удаления ссылки сборка снова прошла.
+Для проверки защиты от ошибок отдельно добавил неверную ссылку. [Этот запуск](https://github.com/Gentofluck/adaptive-ui-review/actions/runs/42879457712) завершился до публикации. После удаления ссылки сборка снова прошла.
 
 ![Остановка сборки из-за неверной ссылки](report/images/ci-failure.png)
 
