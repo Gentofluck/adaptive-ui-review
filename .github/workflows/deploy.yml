@@ -45,3 +45,6 @@ jobs:
       - name: Публикация сайта
         id: deployment
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
+
+      - name: Проверка опубликованной версии
+        run: bash scripts/healthcheck.sh "${{ steps.deployment.outputs.page_url }}" "$GITHUB_SHA"
