@@ -9,8 +9,21 @@
 ```sh
 virtualenv --python python3.15 .venv
 source .venv/bin/activate
+python -m pip install -r requirements.txt
 python --version
 python -m pip --version
 ```
 
 Используются Python 3.15.2 и virtualenv 21.15.6.
+
+## Локальный запуск
+
+```sh
+mkdocs serve
+```
+
+Проверка сборки:
+
+```sh
+mkdocs build --strict
+```

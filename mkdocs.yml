@@ -1,0 +1,10 @@
+site_name: Методы адаптации интерфейсов
+
+theme:
+  name: material
+  language: ru
+  font: false
+
+plugins:
+  - search:
+      lang: [ru]
