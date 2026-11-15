@@ -20,6 +20,8 @@
 Настроены два workflow: [GitHub Pages](.github/workflows/deploy.yml) и [Helios](.github/workflows/deploy-helios.yml). После отправки изменений в `main` Actions собирает сайт и публикует его на обеих площадках. Для Pages используются `upload-pages-artifact` и `deploy-pages`, на Helios файлы передаются через SSH и rsync. 
 Скрипты загрузки и проверки находятся в каталоге [scripts](scripts/).
 
+Сравнение способов публикации и рисков приведено в [T4](report/T4.md), описание выкладки на Helios и отката — в [P4](report/P4.md).
+
 Успешные сборки: [Pages](https://github.com/Gentofluck/adaptive-ui-review/actions/runs/43745332796) и [Helios](https://github.com/Gentofluck/adaptive-ui-review/actions/runs/43745332799). После публикации обе страницы отдавали HTTP 200 и метку версии `7d39b7499a02`.
 
 ![Запуск публикации на Pages](report/images/pages-success.png)
