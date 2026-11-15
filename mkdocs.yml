@@ -8,3 +8,13 @@ theme:
 plugins:
   - search:
       lang: [ru]
+
+markdown_extensions:
+  - attr_list
+
+nav:
+  - Главная: index.md
+  - Сигналы поведения: signals.md
+  - Методы адаптации: methods.md
+  - Оценка и ограничения: evaluation.md
+  - Источники: sources.md
