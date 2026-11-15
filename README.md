@@ -30,7 +30,9 @@ mkdocs build --strict
 
 ## Публикация
 
-[Workflow](.github/workflows/deploy.yml) собирает сайт и публикует его на GitHub Pages после push в `main`. Его также можно запустить вручную во вкладке Actions.
+Публикация на [GitHub Pages](https://gentofluck.github.io/adaptive-ui-review/) и [Helios](https://se.ifmo.ru/~s336456/adaptive-interfaces-review/) запускается после push в `main`. Для других веток создаётся отдельная версия на Helios.
+
+Настройки находятся в [deploy.yml](.github/workflows/deploy.yml) и [deploy-helios.yml](.github/workflows/deploy-helios.yml). Для ручного отката на Helios нужно запустить workflow `Helios` из ветки `main` с действием `rollback`.
 
 ## Лицензии
 
