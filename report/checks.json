@@ -1,0 +1,19 @@
+{
+  "source_commit": "7d39b7499a02f134a91c142a8927521ffaa65e57",
+  "metrics": {
+    "without-widget": {
+      "wall_seconds": 0.414,
+      "mkdocs_seconds": 0.21,
+      "index_html_bytes": 15724,
+      "site_bytes": 2634482,
+      "search_index_bytes": 37000
+    },
+    "with-widget": {
+      "wall_seconds": 0.267,
+      "mkdocs_seconds": 0.14,
+      "index_html_bytes": 17964,
+      "site_bytes": 2647915,
+      "search_index_bytes": 37000
+    }
+  }
+}
