@@ -1,5 +1,7 @@
 site_name: Методы адаптации интерфейсов
 
+copyright: © 2026 Сергей Волков · Контент CC BY 4.0 · Код MIT
+
 theme:
   name: material
   language: ru

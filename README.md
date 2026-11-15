@@ -27,3 +27,7 @@ mkdocs serve
 ```sh
 mkdocs build --strict
 ```
+
+## Лицензии
+
+Код распространяется по [MIT](LICENSE), авторские тексты по [CC BY 4.0](LICENSE-CONTENT).
