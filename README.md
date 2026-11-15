@@ -28,6 +28,10 @@ mkdocs serve
 mkdocs build --strict
 ```
 
+## Публикация
+
+[Workflow](.github/workflows/deploy.yml) собирает сайт и публикует его на GitHub Pages после push в `main`. Его также можно запустить вручную во вкладке Actions.
+
 ## Лицензии
 
 Код распространяется по [MIT](LICENSE), авторские тексты по [CC BY 4.0](LICENSE-CONTENT).
